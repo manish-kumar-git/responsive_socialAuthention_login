@@ -1,0 +1,29 @@
+GET  http://localhost:3000/subscribers
+
+###
+
+GET  http://localhost:3000/subscribers/63808afce64a03285f55a901
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"Rohit ",
+    "followers":60
+}
+
+###
+
+DELETE  http://localhost:3000/subscribers/63ad23db87a960c42a0f1768
+
+###
+
+PATCH   http://localhost:3000/subscribers/6380902ce888d253cb7ac57d
+Content-Type: application/json
+
+{
+    "name":"manishh lmao"
+    
+}
